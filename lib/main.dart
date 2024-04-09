@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-
+//I changed here and I added main method
+void main(){
+  runApp(MyApp());
+} 
 
 
 class MyApp extends StatefulWidget {
@@ -16,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-child: Text('Hello World),
+          child: Text('Hello World),
         ),
       ),
     );
